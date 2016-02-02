@@ -1,0 +1,13 @@
+PODS:
+  - FDStackView (1.0-alpha)
+  - Masonry (0.6.3)
+
+DEPENDENCIES:
+  - FDStackView (~> 1.0-alpha)
+  - Masonry (~> 0.6.3)
+
+SPEC CHECKSUMS:
+  FDStackView: 6abd2cdb128430264d5c6e87277629abad222f20
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+
+COCOAPODS: 0.39.0

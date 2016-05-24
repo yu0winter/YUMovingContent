@@ -63,18 +63,33 @@
     }];
 }
 - (void)testWithDemoViews{
-    NSString *str = @"猴年大吉！\n Happy new Year!\n";
     for (int i = 0; i<16; i++) {
-        UILabel *label = [[UILabel alloc] init];
-        label.text = [str stringByAppendingString:[NSString stringWithFormat:@"%d",i+1]];
-        label.textColor = [UIColor blueColor];
-        label.numberOfLines = 0;
-        label.backgroundColor = [UIColor colorWithRed:0.5 green:0.5 blue:0.8 alpha:1];
-        [self.stackView addArrangedSubview:label];
+        if (i%3==0) {
+            UITextView *textView = [[UITextView alloc] init];
+            textView.textColor = [UIColor blackColor];
+            textView.font = [UIFont systemFontOfSize:17];
+            textView.text = [NSString stringWithFormat:@"\n    I am a textView ********** %d\n",i+1];
+            textView.backgroundColor =  [UIColor colorWithWhite:0.8 alpha:1];
+            textView.scrollEnabled = NO;
+            [self.stackView addArrangedSubview:textView];
+        }
+        else if(i%3 == 1){
+            UILabel *label = [[UILabel alloc] init];
+            label.text = [NSString stringWithFormat:@"\n    I am a label ********** %d\n",i+1];
+            label.textColor = [UIColor blackColor];
+            label.numberOfLines = 0;
+            label.backgroundColor = [UIColor colorWithWhite:0.6 alpha:1];
+            [self.stackView addArrangedSubview:label];
+        }
+        else{
+            UIImageView *imageView = [[UIImageView alloc] init];
+            imageView.image = [UIImage imageNamed:@"wd_fw"];
+            [self.stackView addArrangedSubview:imageView];
+        }
     }
 }
 #pragma mark - Protocol Conformance 遵循协议
-#pragma mark - Delegate Realization 实现委托方法
+#pragma mark - Delegate Realization 实现委ta托方法
 #pragma mark - OverWrite SuperClass Method 重写父类方法
 #pragma mark - Custom Accessors 自定义属性
 #pragma mark Views
@@ -233,4 +248,5 @@
         self.scrollDownTimer = nil;
     }
 }
+
 @end

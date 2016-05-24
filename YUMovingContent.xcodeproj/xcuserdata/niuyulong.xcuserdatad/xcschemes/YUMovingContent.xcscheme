@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EA2083951CAB736700434DFF"
+               BuildableName = "YUMovingContentUITests.xctest"
+               BlueprintName = "YUMovingContentUITests"
+               ReferencedContainer = "container:YUMovingContent.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EA2083A31CAB752700434DFF"
+               BuildableName = "YUMovingContentOCUITests.xctest"
+               BlueprintName = "YUMovingContentOCUITests"
+               ReferencedContainer = "container:YUMovingContent.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -1,4 +1,10 @@
-# YUMovingContent
-使用UIStackView及FDStackView，支持视图移动，并自动调节位置。
+# YUMovingContent 中文介绍
 
-Moving subViews with a Long Press Gesture.
+模仿Suru。
+在UIStackView及FDStackView中实现子视图的自由移动。
+通过长按手势，子视图自由移动，并自动替换上下位置等。
+
+Add views to stackView,and Move these Views with a Long Press Gesture.
+Moving Content(views) Demo.
+supported for iOS7.0+.
+

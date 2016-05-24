@@ -25,4 +25,5 @@
 
 
 
-#endif /* GlobalConfig_h */
+#endif
+/* GlobalConfig_h */

@@ -8,21 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		D3F61232B60189817C2DE386 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A889FE228C3E438148EC78DE /* libPods.a */; };
+		EA2083A71CAB752700434DFF /* YUMovingContentOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2083A61CAB752700434DFF /* YUMovingContentOCUITests.m */; };
+		EA59C18E1CF456D200BA19D1 /* YUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA59C18D1CF456D200BA19D1 /* YUViewController.m */; };
 		EAB8B8BF1C605FB300CCB0E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B8BE1C605FB300CCB0E4 /* main.m */; };
 		EAB8B8C21C605FB300CCB0E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B8C11C605FB300CCB0E4 /* AppDelegate.m */; };
 		EAB8B8C81C605FB300CCB0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C61C605FB300CCB0E4 /* Main.storyboard */; };
 		EAB8B8CA1C605FB300CCB0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C91C605FB300CCB0E4 /* Assets.xcassets */; };
 		EAB8B8CD1C605FB300CCB0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8CB1C605FB300CCB0E4 /* LaunchScreen.storyboard */; };
-		EAB8B8DF1C6060AF00CCB0E4 /* YUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B8DB1C6060AF00CCB0E4 /* YUViewController.m */; };
 		EAB8B8E51C60626A00CCB0E4 /* FDStackView+YUIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B8E41C60626A00CCB0E4 /* FDStackView+YUIndex.m */; };
 		EAB8B8E81C60628200CCB0E4 /* UIStackView+YUIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B8E71C60628200CCB0E4 /* UIStackView+YUIndex.m */; };
 		EAB8B8EB1C6062C400CCB0E4 /* UIView+YUSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B8EA1C6062C400CCB0E4 /* UIView+YUSnapshot.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EA2083A91CAB752700434DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB8B8B21C605FB300CCB0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB8B8B91C605FB300CCB0E4;
+			remoteInfo = YUMovingContent;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		35884C8EA852A94497F9C444 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3FBCA5C315904C2879ACD1E6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A889FE228C3E438148EC78DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2083A41CAB752700434DFF /* YUMovingContentOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUMovingContentOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2083A61CAB752700434DFF /* YUMovingContentOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUMovingContentOCUITests.m; sourceTree = "<group>"; };
+		EA2083A81CAB752700434DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA59C18C1CF456D200BA19D1 /* YUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUViewController.h; sourceTree = "<group>"; };
+		EA59C18D1CF456D200BA19D1 /* YUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUViewController.m; sourceTree = "<group>"; };
 		EAB8B8BA1C605FB300CCB0E4 /* YUMovingContent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUMovingContent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB8B8BE1C605FB300CCB0E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAB8B8C01C605FB300CCB0E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,8 +47,6 @@
 		EAB8B8C91C605FB300CCB0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAB8B8CC1C605FB300CCB0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAB8B8CE1C605FB300CCB0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAB8B8DA1C6060AF00CCB0E4 /* YUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUViewController.h; sourceTree = "<group>"; };
-		EAB8B8DB1C6060AF00CCB0E4 /* YUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUViewController.m; sourceTree = "<group>"; };
 		EAB8B8E11C60611900CCB0E4 /* GlobalConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.h; sourceTree = "<group>"; };
 		EAB8B8E21C60612100CCB0E4 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		EAB8B8E31C60626A00CCB0E4 /* FDStackView+YUIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDStackView+YUIndex.h"; sourceTree = "<group>"; };
@@ -44,6 +58,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EA2083A11CAB752700434DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAB8B8B71C605FB300CCB0E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,10 +93,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EA2083A51CAB752700434DFF /* YUMovingContentOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA2083A61CAB752700434DFF /* YUMovingContentOCUITests.m */,
+				EA2083A81CAB752700434DFF /* Info.plist */,
+			);
+			path = YUMovingContentOCUITests;
+			sourceTree = "<group>";
+		};
 		EAB8B8B11C605FB300CCB0E4 = {
 			isa = PBXGroup;
 			children = (
 				EAB8B8BC1C605FB300CCB0E4 /* YUMovingContent */,
+				EA2083A51CAB752700434DFF /* YUMovingContentOCUITests */,
 				EAB8B8BB1C605FB300CCB0E4 /* Products */,
 				467E383AFC89E845DE6875C3 /* Pods */,
 				800CB457F99317AD6A3B57AE /* Frameworks */,
@@ -86,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				EAB8B8BA1C605FB300CCB0E4 /* YUMovingContent.app */,
+				EA2083A41CAB752700434DFF /* YUMovingContentOCUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +125,9 @@
 		EAB8B8BC1C605FB300CCB0E4 /* YUMovingContent */ = {
 			isa = PBXGroup;
 			children = (
+				EA59C18C1CF456D200BA19D1 /* YUViewController.h */,
+				EA59C18D1CF456D200BA19D1 /* YUViewController.m */,
 				EAB8B8E01C6060C800CCB0E4 /* Category */,
-				EAB8B8DA1C6060AF00CCB0E4 /* YUViewController.h */,
-				EAB8B8DB1C6060AF00CCB0E4 /* YUViewController.m */,
 				EAB8B8C91C605FB300CCB0E4 /* Assets.xcassets */,
 				EAB8B8BD1C605FB300CCB0E4 /* Supporting Files */,
 			);
@@ -133,6 +165,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EA2083A31CAB752700434DFF /* YUMovingContentOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2083AB1CAB752700434DFF /* Build configuration list for PBXNativeTarget "YUMovingContentOCUITests" */;
+			buildPhases = (
+				EA2083A01CAB752700434DFF /* Sources */,
+				EA2083A11CAB752700434DFF /* Frameworks */,
+				EA2083A21CAB752700434DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA2083AA1CAB752700434DFF /* PBXTargetDependency */,
+			);
+			name = YUMovingContentOCUITests;
+			productName = YUMovingContentOCUITests;
+			productReference = EA2083A41CAB752700434DFF /* YUMovingContentOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EAB8B8B91C605FB300CCB0E4 /* YUMovingContent */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAB8B8D11C605FB300CCB0E4 /* Build configuration list for PBXNativeTarget "YUMovingContent" */;
@@ -159,9 +209,14 @@
 		EAB8B8B21C605FB300CCB0E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = nyl;
 				TargetAttributes = {
+					EA2083A31CAB752700434DFF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EAB8B8B91C605FB300CCB0E4;
+					};
 					EAB8B8B91C605FB300CCB0E4 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -181,11 +236,19 @@
 			projectRoot = "";
 			targets = (
 				EAB8B8B91C605FB300CCB0E4 /* YUMovingContent */,
+				EA2083A31CAB752700434DFF /* YUMovingContentOCUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EA2083A21CAB752700434DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAB8B8B81C605FB300CCB0E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,20 +310,36 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EA2083A01CAB752700434DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2083A71CAB752700434DFF /* YUMovingContentOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAB8B8B61C605FB300CCB0E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA59C18E1CF456D200BA19D1 /* YUViewController.m in Sources */,
 				EAB8B8E81C60628200CCB0E4 /* UIStackView+YUIndex.m in Sources */,
 				EAB8B8E51C60626A00CCB0E4 /* FDStackView+YUIndex.m in Sources */,
 				EAB8B8EB1C6062C400CCB0E4 /* UIView+YUSnapshot.m in Sources */,
-				EAB8B8DF1C6060AF00CCB0E4 /* YUViewController.m in Sources */,
 				EAB8B8C21C605FB300CCB0E4 /* AppDelegate.m in Sources */,
 				EAB8B8BF1C605FB300CCB0E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA2083AA1CAB752700434DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB8B8B91C605FB300CCB0E4 /* YUMovingContent */;
+			targetProxy = EA2083A91CAB752700434DFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EAB8B8C61C605FB300CCB0E4 /* Main.storyboard */ = {
@@ -282,6 +361,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EA2083AC1CAB752700434DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = YUMovingContentOCUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyl.YUMovingContentOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YUMovingContent;
+			};
+			name = Debug;
+		};
+		EA2083AD1CAB752700434DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = YUMovingContentOCUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyl.YUMovingContentOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YUMovingContent;
+			};
+			name = Release;
+		};
 		EAB8B8CF1C605FB300CCB0E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -371,6 +476,17 @@
 				INFOPLIST_FILE = YUMovingContent/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FDStackView\"",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = nyl.YUMovingContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -385,6 +501,17 @@
 				INFOPLIST_FILE = YUMovingContent/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FDStackView\"",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = nyl.YUMovingContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -393,6 +520,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EA2083AB1CAB752700434DFF /* Build configuration list for PBXNativeTarget "YUMovingContentOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2083AC1CAB752700434DFF /* Debug */,
+				EA2083AD1CAB752700434DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EAB8B8B51C605FB300CCB0E4 /* Build configuration list for PBXProject "YUMovingContent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
